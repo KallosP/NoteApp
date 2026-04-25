@@ -1,0 +1,28 @@
+{
+	"name": "backend",
+	"version": "1.0.0",
+	"description": "",
+	"license": "ISC",
+	"author": "",
+	"type": "module",
+	"main": "backend.js",
+	"scripts": {
+		"dev": "npx nodemon backend.js",
+		"start": "node backend.js",
+		"lint": "npx eslint . && npx prettier --check ."
+	},
+	"devDependencies": {
+		"@eslint/compat": "^2.0.5",
+		"@eslint/eslintrc": "^3.3.5",
+		"@eslint/js": "^10.0.1",
+		"eslint": "^10.2.1",
+		"nodemon": "^3.1.14"
+	},
+	"dependencies": {
+		"bcryptjs": "^3.0.3",
+		"cors": "^2.8.6",
+		"dotenv": "^17.4.2",
+		"jsonwebtoken": "^9.0.3",
+		"mongoose": "^9.5.0"
+	}
+}

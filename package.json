@@ -1,0 +1,26 @@
+{
+	"name": "noteapp",
+	"version": "1.0.0",
+	"description": "Recreation of Note Taking Web App project from CSC 307.",
+	"homepage": "https://github.com/KallosP/NoteApp#readme",
+	"bugs": {
+		"url": "https://github.com/KallosP/NoteApp/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/KallosP/NoteApp.git"
+	},
+	"license": "ISC",
+	"author": "",
+	"type": "commonjs",
+	"main": "index.js",
+	"scripts": {
+		"format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json,html}' --config ./.prettierrc"
+	},
+	"workspaces": [
+		"packages/*"
+	],
+	"devDependencies": {
+		"prettier": "^3.8.3"
+	}
+}
